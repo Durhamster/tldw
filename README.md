@@ -1,7 +1,7 @@
 # TLDW 😫 📺
 
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/Durhamster/TLDW?color=blue&style=for-the-badge)
-![License](https://img.shields.io/github/license/Durhamster/TLDWr?style=for-the-badge)
+![License](https://img.shields.io/github/license/Durhamster/TLDW?style=for-the-badge)
 
 This script is for transcribing mp4 video files. It features a GUi using PyQT5 and
 
