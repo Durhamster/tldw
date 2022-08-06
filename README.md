@@ -3,7 +3,7 @@
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/Durhamster/TLDW?color=blue&style=for-the-badge)
 ![License](https://img.shields.io/github/license/Durhamster/TLDW?style=for-the-badge)
 
-This script is for transcribing mp4 video files. It features a GUi using PyQT5.
+This script is for transcribing mp4 video files. It features a GUI using PyQT5.
 
 Please note that does NOT include timestamps. This simply outputs the audio from a mp4 into a .txt file.
 
