@@ -24,11 +24,11 @@ class Ui_MainWindow(object):
         """Define visual components and positions."""
         # Main window
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(653, 836)
+        MainWindow.resize(653, 876)
         self.centralWidget = QtWidgets.QWidget(MainWindow)
         self.centralWidget.setObjectName("centralWidget")
         self.label = QtWidgets.QLabel(self.centralWidget)
-        self.label.setGeometry(QtCore.QRect(50, 20, 161, 41))
+        self.label.setGeometry(QtCore.QRect(5, 20, 225, 41))
 
         # Selected video file label
         font = QtGui.QFont()
@@ -45,7 +45,7 @@ class Ui_MainWindow(object):
 
         self.selected_video_label.setObjectName("selected_video_label")
         self.label_3 = QtWidgets.QLabel(self.centralWidget)
-        self.label_3.setGeometry(QtCore.QRect(50, 90, 161, 41))
+        self.label_3.setGeometry(QtCore.QRect(5, 90, 225, 41))
 
         # Transcribed text box
         font = QtGui.QFont()
@@ -133,8 +133,8 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowIcon(QtGui.QIcon("assets/icon.png"))
         MainWindow.setWindowTitle(_translate("TLDW", "TLDW"))
-        self.label.setText(_translate("MainWindow", "Selected video file:"))
-        self.label_3.setText(_translate("MainWindow", "Output file name:"))
+        self.label.setText(_translate("MainWindow", "Video file:"))
+        self.label_3.setText(_translate("MainWindow", "Output file:"))
         self.label_5.setText(_translate("MainWindow", "Transcribed text:"))
         self.transcribe_button.setText(_translate("MainWindow", "Transcribe"))
         self.output_file_name.setPlaceholderText(
